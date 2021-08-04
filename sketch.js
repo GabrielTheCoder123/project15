@@ -65,7 +65,7 @@ function draw() {
     }
     else if (diamondsG.isTouching(boy)) {
       diamondsG.destroyEach();
-      treasureCollection=treasureCollection+60;
+      treasureCollection=treasureCollection+50;
 
       
     }else if(jwelleryG.isTouching(boy)) {
